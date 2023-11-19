@@ -1,0 +1,33 @@
+app:
+  rabbit:
+    queue: EMAIL_SENDING_TASKS
+#    exchange: email
+#    routing_key: email
+
+spring:
+  rabbitmq:
+    host: localhost
+    username: admin
+  mail:
+    host: smtp.mail.ru
+    port: 465
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl.trust: smtp.mail.ru
+          starttls.enable: true
+          starttls.required: true
+          ssl.enable: true
+          timeout: 5000
+          ssl.protocols: TLSv1.2
+        debug: false
+
+
+#logging:
+#  level:
+#    root: DEBUG
+
+
+
+

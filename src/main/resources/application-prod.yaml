@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    password: ${RMQ-PASSWORD}
+  mail:
+    username: ${MAIL-USERNAME}
+    password: ${MAIL-PASSWORD}
+
+
+
+

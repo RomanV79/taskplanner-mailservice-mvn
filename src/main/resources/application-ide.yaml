@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    password: password
+  mail:
+    username: task-planner-1@mail.ru
+    password: UYCFPhYeCz3xvqh8bPBs
+
+
+
+
