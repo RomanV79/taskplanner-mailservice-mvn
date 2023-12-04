@@ -9,20 +9,21 @@ spring:
     host: localhost
     username: admin
   mail:
-    host: smtp.mail.ru
-    port: 465
+    emailfrom: appjava33@gmail.com
+    host: smtp.gmail.com
+    port: 587
     properties:
       mail:
         smtp:
           auth: true
-          ssl.trust: smtp.mail.ru
+#          ssl.trust: smtp.gmail.com
           starttls.enable: true
           starttls.required: true
-          ssl.enable: true
+#          ssl.enable: true
           timeout: 5000
           ssl.protocols: TLSv1.2
-        debug: false
-
+#          user: appjava33@gmail.com
+        debug: true
 
 #logging:
 #  level:

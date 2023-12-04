@@ -2,8 +2,9 @@ spring:
   rabbitmq:
     password: password
   mail:
-    username: task-planner-1@mail.ru
-    password: UYCFPhYeCz3xvqh8bPBs
+    username: appjava33@gmail.com
+    password: 111111111111111
+    emailfrom: appjava33@gmail.com
 
 
 
